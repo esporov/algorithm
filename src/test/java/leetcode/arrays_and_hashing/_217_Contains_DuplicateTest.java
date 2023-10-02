@@ -1,11 +1,12 @@
 package leetcode.arrays_and_hashing;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class _217_Contains_DuplicateTest {
+
+    @BeforeAll
 
     @Test
     void containsDuplicate1() {
@@ -30,6 +31,7 @@ class _217_Contains_DuplicateTest {
     void containsDuplicate4() {
         assertFalse(_217_Contains_Duplicate.containsDuplicate(new int[]{1}));
     }
+
 
     @Test
     void containsDuplicate5() {

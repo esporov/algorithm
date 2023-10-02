@@ -8,6 +8,6 @@ public class _1071_Greatest_Common_Divisor_of_Strings {
     }
 
     public String gcdOfStrings(String str1, String str2) {
-
+        return null;
     }
 }
