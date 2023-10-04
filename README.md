@@ -1,0 +1,11 @@
+## Leetcode (patterns)
+ * [Arrays and Hashing](https://github.com/esporov/algorithm/tree/master/src/main/java/leetcode/arrays_and_hashing)
+ * [Binary Search](https://github.com/esporov/algorithm/tree/master/src/main/java/leetcode/binary_search)
+ * [Bitwise](https://github.com/esporov/algorithm/tree/master/src/main/java/leetcode/bitwise)
+ * [Heap Priority Queue](https://github.com/esporov/algorithm/tree/master/src/main/java/leetcode/Heap_Priority_Queue)
+ * [Merge Intervals](https://github.com/esporov/algorithm/tree/master/src/main/java/leetcode/Merge_Intervals)
+ * [Sliding Window](https://github.com/esporov/algorithm/tree/master/src/main/java/leetcode/sliding_window)
+ * [Two Pointers](https://github.com/esporov/algorithm/tree/master/src/main/java/leetcode/two_pointers)
+ * [Other](https://github.com/esporov/algorithm/tree/master/src/main/java/leetcode/other)
+
+## [Tinkoff Fall 2023](https://github.com/esporov/algorithm/tree/master/src/main/java/tinkoff/fall2023)
