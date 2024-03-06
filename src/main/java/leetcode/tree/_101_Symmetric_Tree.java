@@ -15,8 +15,8 @@ public class _101_Symmetric_Tree {
                 new TreeNode(2,
                         new TreeNode(4, null, null),
                         new TreeNode(3, null, null)));
+        isSymmetric(node);
 
-        System.out.println(Objects.equals(null, "asd"));
     }
 
     public static boolean isSymmetric(TreeNode root) {
@@ -34,6 +34,10 @@ public class _101_Symmetric_Tree {
         while (queueR.size() != 0 && queueL.size() != 0) {
             var curL = queueL.pollFirst();
             var curR = queueR.pollFirst();
+
+            if (curR == null && curL == null) {
+                continue;
+            }
 
             if (curR == null || curL == null) {
                 return false;
