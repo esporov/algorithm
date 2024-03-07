@@ -20,8 +20,8 @@ public class Main {
     public static String[] helper(String[] data) {
         int circleLength = Integer.parseInt(data[0]);
         double firstPosition = Integer.parseInt(data[1]);
-        double secondPosition = Integer.parseInt(data[2]);
-        double firstVelocity = Integer.parseInt(data[3]);
+        double firstVelocity = Integer.parseInt(data[2]);
+        double secondPosition = Integer.parseInt(data[3]);
         double secondVelocity = Integer.parseInt(data[4]);
 
 //        double nextFirstPosition = 0;
@@ -30,7 +30,7 @@ public class Main {
 //        double radius = circleLength / (2 * Math.PI);
         String[] result = new String[2];
         double sec = 0.0;
-        double ratio = firstVelocity > secondVelocity ? secondVelocity/firstVelocity : firstVelocity/secondVelocity;
+        double ratio = 1;
         while (true) {
             double firstAngle = (Math.abs(firstPosition / circleLength)) * 360.0;
             double secondAngle = (Math.abs(secondPosition / circleLength)) * 360.0;
